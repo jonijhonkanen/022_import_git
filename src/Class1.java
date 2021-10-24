@@ -1,5 +1,5 @@
 class Class1 {
-    public String sendGreeting() {
-        return "UserName";
+    public String sendGreeting(String user) {
+        return "Hello " + user;
     }
 }

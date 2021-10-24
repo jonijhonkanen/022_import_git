@@ -6,7 +6,7 @@ class Program {
 
         //Retrieve the user name
         Class1 name = new Class1();
-        String text = name.sendGreeting();
+        String text = name.sendGreeting(userName);
         System.out.println(text);
 
         //Retrieve user age
