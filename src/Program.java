@@ -11,9 +11,10 @@ class Program {
 
         //Retrieve user age
         Class2 userAge = new Class2();
-        int number = userAge.sendAge();
+        int number = userAge.Age();
         System.out.println(number);
 
+        userAge.verifyAge(number);
         //Print user's id number
         System.out.println("User id is: " + sendId(id));
     }
