@@ -1,5 +1,5 @@
 class Class2 {
-    public int tellAge() {
+    public int sendAge() {
         return 25;
     }
 }

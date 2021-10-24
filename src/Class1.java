@@ -1,5 +1,5 @@
 class Class1 {
-    public String tellName() {
+    public String sendName() {
         return "UserName";
     }
 }
