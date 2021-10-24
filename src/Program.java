@@ -4,11 +4,11 @@ class Program {
         Class1 name = new Class1();
         String text = name.tellName();
         System.out.println(text);
-        
+
         //Retrieve user age
-        Class2 number = new Class2();
-        int age = number.tellAge();
-        System.out.println(age);
+        Class2 userAge = new Class2();
+        int number = userAge.tellAge();
+        System.out.println(number);
 
     }
 }
