@@ -2,6 +2,8 @@ class Program {
     public static void main(String[] args) {
 
         int id = 0;
+        String userName = "Admin";
+
         //Retrieve the user name
         Class1 name = new Class1();
         String text = name.sendGreeting();
