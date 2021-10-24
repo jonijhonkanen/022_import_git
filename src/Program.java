@@ -12,6 +12,11 @@ class Program {
         int number = userAge.tellAge();
         System.out.println(number);
 
+        System.out.println("User id is: " + sendId(id));
+    }
+
+    public id sendId(int userId) {
+        return userId + 1;
     }
 }
 
